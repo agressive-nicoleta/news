@@ -1,7 +1,10 @@
+import NewsForm from "./components/NewsForm";
+
 function App() {
   return (
     <div id="App">
-      <h1>Hello</h1>
+      <h1>News App</h1>
+      <NewsForm />
     </div>
   );
 }
