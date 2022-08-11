@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import classes from "./NewsForm.module.css";
 import { useStore } from "../use-stores";
 
@@ -16,7 +16,7 @@ const NewsForm = () => {
       text: newsTextInputRef.current!.value,
     };
     newsStore.addNews(newInfo);
-    console.log(newsStore);
+    console.log(newsStore.news);
   };
 
   return (
