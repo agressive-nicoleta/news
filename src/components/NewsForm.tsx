@@ -28,7 +28,6 @@ const NewsForm = () => {
           <InputText
             type="text"
             className="title text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary"
-            placeholder="Large"
             required
             id="title"
             onChange={(e) => setTitle(e.target.value)}
@@ -51,7 +50,7 @@ const NewsForm = () => {
             type="button"
             label="Submit"
             icon="pi pi-check"
-            className="p-button-lg"
+            className="p-button-m"
             onClick={handleSubmit}
           ></Button>
         </div>
