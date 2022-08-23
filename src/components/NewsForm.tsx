@@ -50,7 +50,7 @@ const NewsForm = () => {
             type="button"
             label="Submit"
             icon="pi pi-check"
-            className="p-button-m"
+            className="p-button"
             onClick={handleSubmit}
           ></Button>
         </div>
